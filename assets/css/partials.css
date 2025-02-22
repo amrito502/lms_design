@@ -12,6 +12,13 @@
     font-size: 16px;
 }
 
+#login_topbar_btn > span{
+    margin-top: -1px;
+    margin-right: 7px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #15191e;
+}
 
 #login_topbar_btn:hover{
     background: #138D75!important;

@@ -4036,19 +4036,41 @@ iframe {
         width: 200px
     }
 }
-.hero__fivesection{
+/* .hero__fivesection{
     position: absolute;
     top: 99px;
     left: 0;
     content: "";
-    /* background: url(../images/banner/Background-banner.webp) no-repeat center center; */
+    background: url(../images/banner/banner_web.png) no-repeat center center;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url(../images/banner/banner_web.png) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: auto;
     background-color: #D1ECE7;
     padding-top: 60px;
     padding-bottom: 40px;
+} */
+
+.hero__fivesection {
+    position: absolute;
+    top: 99px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+    /* Background with Gradient Overlay */
+    background: 
+        linear-gradient(rgba(19, 141, 117, 0.7), rgba(19, 141, 117, 0.5)), /* Gradient Overlay */
+        url(../images/banner/banner_web.png) no-repeat center center;
+    background-size: cover;
 }
+
+
+
 .hero__fivesection::before {
     position: absolute;
     top: 50px;
