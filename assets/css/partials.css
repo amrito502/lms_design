@@ -17,7 +17,7 @@
     margin-right: 7px;
     font-size: 20px;
     font-weight: 700;
-    color: #15191e;
+    color: #f3f4f5;
 }
 
 #login_topbar_btn:hover{
@@ -54,3 +54,138 @@
 .{}
 .{}
 .{}
+
+/* -----------------------Footer Start ---------------- */
+#Footer {
+    background-color: rgb(25, 25, 25);
+    padding-top: 45px;
+}
+
+#Footer .footer-logo-text > p {
+    color: white;
+}
+
+#Footer .footer-logo-content .footer-logo .footer-logo-image img {
+    width: 170px;
+    height: 46px;
+    left: 0;
+}
+
+#Footer .footer-logo-content .footer-logo-text > p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 25px;
+}
+
+#Footer .footer-logo-content .footer-social-media-area .social-media-icon {
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+    gap: 20px;
+}
+
+#Footer .footer-logo-content .footer-social-media-area .social-media-icon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 50%;
+    border: 1px solid #138D75;
+    color: white;
+    transition: .7s ease-in-out;
+}
+
+#Footer .footer-logo-content .footer-social-media-area .social-media-icon a:hover {
+    background-color: white;
+    color: #138D75;
+    border: 1px solid #138D75;
+}
+
+#Footer .footer-others-div h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#Footer .footer-others-div ul {
+    padding-left: 15px;
+    list-style-type: inherit;
+    color: #138D75;
+}
+
+#Footer .footer-others-div ul li a {
+    display: block;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+
+#Footer .footer-others-div ul li a:hover {
+    color: #138D75;
+}
+
+#Footer .footer-others-div ul li i {
+    color: #138D75;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+#Footer .footer-others-div ul li i:hover {
+    color: white;
+}
+
+#Footer .footer-others-div p i {
+    color: #138D75;
+    font-size: 20px;
+    margin-right: 8px;
+}
+
+#Footer .footer-others-div p i:hover {
+    color: white;
+}
+
+#Footer .footer-others-div p a {
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+#Footer .footer-others-div p span {
+    color: #138D75;
+}
+
+#Footer .copy-right-section {
+    border-top: 1px solid rgb(58, 58, 58);
+    padding: 13px 0px;
+}
+
+#Footer .copy-right-section p {
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+}
+
+#Footer .copy-right-section p span a {
+    color: #138D75;
+}
+
+#Footer .copy-right-section p span a:hover {
+    color: white;
+}
+
+#Footer .footer-others-div .official-info ul {
+    padding-left: 0;
+}
+
+#Footer .footer-others-div .official-info ul li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#Footer .footer-others-div .official-info ul li a {
+    color: #D7E4F9;
+}

@@ -4064,9 +4064,9 @@ iframe {
 
     /* Background with Gradient Overlay */
     background: 
-        linear-gradient(rgba(19, 141, 117, 0.7), rgba(19, 141, 117, 0.5)), /* Gradient Overlay */
+        linear-gradient(#e8f6f3, #e8f6f3), /* Gradient Overlay */
         url(../images/banner/banner_web.png) no-repeat center center;
-    background-size: cover;
+    background-size: cover; 
 }
 
 
