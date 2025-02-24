@@ -216,7 +216,7 @@
     <!-- header-section end -->
 
    
-    <section class="signup-section pt-120  pb-120">
+    <section class="forgot-password-section pt-120 pb-120">
         <div class="container">
             <div class="row g-6 mt-100" style="margin-top: 80px;">
                 <div class="col-lg-3"></div>
@@ -224,38 +224,20 @@
                     <div class="cmn-form radius16 n20-bg cus-border border py-xxl-8 py-4 px-xxl-8 px-4">
                         <div class="box mb-xxl-10 mb-8">
                             <h4 class="n500-color mb-xxl-4 mb-2 login_title">
-                                লগ ইন
+                                OTP Verification
                             </h4>
                         </div>
                         <form action="#0" class="writere-v1">
                             <div class="row">
-                                <div class="col-lg-12">
+                                <div class="col-lg-12 mt-4" id="otp-section">
                                     <div class="form-cmn mb-xxl-6 mb-5">
-                                        <label for="emal" class="fs-six fw_500 n700-color mb-xxl-3 mb-2">মোবাইল নম্বর <span class="text-danger">*</span></label>
-                                        <input type="email" placeholder="মোবাইল" id="emal" class="n0-bg">
+                                        <label for="otp" class="fs-six fw_500 n700-color mb-xxl-3 mb-2">OTP <span class="text-danger">*</span></label>
+                                        <input type="text" placeholder="OTP কোড দিন" id="otp" class="n0-bg">
                                     </div>
                                 </div>
+    
                                 <div class="col-lg-12">
-                                    <div class="sign__item">
-                                        <label for="password-field" class="fs-six fw_500 n700-color mb-xxl-3 mb-2">পাসওয়ার্ড <span class="text-danger">*</span></label>
-                                        <div class="ps-grp position-relative">
-                                            <input type="password" id="password-field" name="password" class="password-field" placeholder="পাসওয়ার্ড">
-                                            <i class="far fa-eye-slash field-icon toggle-password eye-icon"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <button type="submit" class="login_btn">সাইন ইন</button>
-                                </div>
-                                <div class="row mt-6">
-                                    <div class="col-md-6">
-                                        <a href="forget_password.html" class="n700-color fs-eight">
-                                            পাসওয়ার্ড ভুলে গেছেন?
-                                        </a>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <a href="register.html" class="fw_600 n700-color" style="float: right;">সাইন আপ করুন</a>
-                                    </div>
+                                    <a href="set_password.html" type="button" class="login_btn" id="send-otp-btn">Verify OTP</a>
                                 </div>
                             </div>
                         </form>
@@ -266,8 +248,9 @@
             </div>
         </div>
     </section>
-
-
+    
+   
+    
 
 
 <!--   next-part   -->

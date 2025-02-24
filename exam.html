@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <title>Edufast - Education & Online Course</title>
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.min.css" />
+    <link rel="stylesheet" href="assets/css/partials.css" />
+    <link rel="stylesheet" type="text/css" href="assets/themify-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap" rel="stylesheet">
+<style>
+    body{
+        font-family: "Noto Sans Bengali", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+    .login_title{
+        font-family: "Noto Sans Bengali", serif;
+        font-size: 45px;
+        text-align: center;
+    }
+    .login_btn{
+        margin-top: 40px;
+        text-align: center;
+        width: 100%;
+        border: 1px solid #138D75;
+        padding: 10px 0;
+        font-size: 19px;
+        border-radius: 45px;
+        color: #138D75;
+        transition: .4sease;
+    }
+    .login_btn:hover{
+        background-color: #138D75;
+        color: #fff;
+    }
+</style>
+</head>
+
+<body>
+    <!-- start preloader -->
+    <div id="preloader">
+        <img src="assets/images/icon/boki.png" alt="img" class="bookicon-preloader" />
+    </div>
+    <!-- end preloader -->
+
+    <!-- Scroll To Top Start-->
+    <button class="scrollToTop d-md-flex d-center" aria-label="scroll Bar Button">
+        <i class="mat-icon fas fa-angle-double-up"></i>
+    </button>
+    <!-- Scroll To Top End -->
+
+   
+    <!-- header-section start -->
+    <header class="header-section cmn-s2color-header header-v3 header-v5">
+        <!-- top header start -->
+        <div class="one__header header-cmnbg-added head-border">
+            <!-- top header end -->
+            <div class="container">
+                <!-- main header start -->
+                <div class="main-navbar one__mainheader">
+                    <!-- header-section start -->
+                    <nav class="navbar-custom">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <a href="index.html" class="nav-brand d-lg-none">
+                                <img class="w-100" src="assets/images/logo.png" alt="logo" />
+                            </a>
+                            <div class="d-flex gap-3 align-items-center position-relative">
+                                <div class="switch-wrapper-top d-flex d-lg-none"></div>
+                                <button class="navbar-toggle-btn d-block d-lg-none" type="button">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="navbar-toggle-item cus__scroll">
+                            <div
+                                class="d-flex gap-5 flex-column flex-lg-row align-items-start align-items-lg-center justify-content-between mt-5 mt-lg-0">
+                                <div class="left__navbox d-flex align-items-center gap-4 gap-xl-6 gap-xxl-10">
+                                    <a href="index.html" class="navbar-brand d-none d-lg-block">
+                                        <img class="w-100" src="assets/images/logo.png" alt="logo" />
+                                    </a>
+                                    <ul class="custom-nav d-lg-flex d-grid gap-4 gap-xl-6">
+                                        <li class="menu-item position-relative">
+                                            <a href="index.html" class="fw_500 n500-color menu_list_item">হোম</a>
+                                        </li>
+
+                                        <li class="menu-item position-relative">
+                                            <a href="courses.html" class="fw_500 n500-color menu_list_item">কোর্সসমূহ</a>
+                                        </li>
+
+                                        <li class="menu-item position-relative">
+                                            <a href="#" class="fw_500 n500-color menu_list_item">পরীক্ষাসমূহ</a>
+                                        </li>
+
+                                        <li class="menu-item position-relative">
+                                            <a href="#" class="fw_500 n500-color menu_list_item">ফ্রি সার্ভিস</a>
+                                        </li>
+
+                                        <li class="menu-item position-relative">
+                                            <a href="#" class="fw_500 n500-color menu_list_item">জব সার্কুলার</a>
+                                        </li>
+
+                                        <li class="menu-item position-relative">
+                                            <a href="#" class="fw_500 n500-color menu_list_item">ব্লগ</a>
+                                        </li>
+
+                                        <li class="menu-item position-relative">
+                                            <a href="#" class="fw_500 n500-color menu_list_item">বই</a>
+                                        </li>
+                                    </ul>
+                                    <div class="category__oneadjust d-none d-lg-block gap-6 d-flex align-items-center">
+                                        <form action="#" class="search-toggle-box d-block">
+                                            <div
+                                                class="input-area d-flex n0-bg align-items-center gap-2 py-1 px-6 py-lg-2 px-2 radius30">
+                                                <input type="text" class="px-4" placeholder="Search" />
+                                                <button class="cmn-btn search__icon40">
+                                                    <span>
+                                                        <i class="fa-solid fa-magnifying-glass n4-color"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </form>
+                                        <!-- search form input -->
+                                    </div>
+                                </div>
+                                <ul
+                                    class="shop__styleone ps-2 pb-lg-0 pb-2 ps-lg-0 mt-3 mt-lg-0 d-flex align-items-center gap-2 gap-lg-2 gap-xl-3 gap-xxl-5">
+                                    <li class="position-relative d-lg-none">
+                                        <button class="search-toggle-btn headerv3-cmnicon">
+                                            <span>
+                                                <i class="fa-solid fa-magnifying-glass n500-color fs-seven"></i>
+                                            </span>
+                                        </button>
+                                        <form action="#" class="search-toggle-box togglebox-one">
+                                            <div
+                                                class="input-area d-flex n0-bg align-items-center gap-2 py-1 px-6 py-lg-2 px-2 radius30">
+                                                <input type="text" class="px-4" placeholder="Search" />
+                                                <button class="cmn-btn search__icon40">
+                                                    <span>
+                                                        <i class="fa-solid fa-magnifying-glass n4-color"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </li>
+                                    <li>
+                                        <div class="langv3 headerv3-cmnicon">
+                                            <i class="ti-world"></i>
+                                            <select name="#">
+                                                <option value="1">Eng</option>
+                                                <option value="2">Us</option>
+                                                <option value="3">Uk</option>
+                                                <option value="4">Uk</option>
+                                                <option value="5">Uk</option>
+                                                <option value="6">Uk</option>
+                                                <option value="7">Uk</option>
+                                            </select>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="#0" class="cbox headerv3-cmnicon position-relative">
+                                            <i class="ti-heart n500-color"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="product.html" class="cbox headerv3-cmnicon position-relative">
+                                            <i class="ti-shopping-cart n500-color fs-six"></i>
+                                            <span class="serial radius100 d-center fs-nine n700-color s1-bg">
+                                                1
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="login.html" class="position-relative" id="login_topbar_btn"><span><i
+                                                    class="fa-solid fa-lock"></i></span><strong>লগইন</strong></a>
+                                    </li>
+                                    <!-- <li class="position-relative urser-dhasboard-profile">
+                                        <div class="dropdown position-relative">
+                                            <button class="btn headerv3-cmnicon " type="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="fa-solid fa-user"></i>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="student-dashboard.html">Student
+                                                        Profile</a></li>
+                                                <li><a class="dropdown-item" href="instructor-dashboard.html">Instructor
+                                                        Profile</a></li>
+                                            </ul>
+                                        </div>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- main header end -->
+            </div>
+        </div>
+    </header>
+    <!-- header-section end -->
+
+   
+ 
+ <!-- online courses start -->
+ <section class="online-courses pt-120 pb-120">
+    <div class="container">
+        <div class="row justify-content-center mt-20">
+            <div class="col-lg-12">
+                <div class="sec__titletwo text-center mb-10 mb-xl-15">
+                    <span class="two__title n700-color mb-4 mb-xl-5" data-aos="zoom-out-down" data-aos-duration="1400">
+                        ক্যাটাগরি ভিত্তিক পরীক্ষাসমূহ
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row g-6 justify-content-center">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-left" data-aos-duration="1000">
+                <div class="online-courseitem radius16 n20-bg  cus-border border py-5 py-xl-8 py-xxl-10 px-4 text-center">
+                    <div class="icon cmn__icon88 m-auto n0-bg d-center radius100 cus-border border mb-4 mb-lg-5 mb-xl-6 mb-xxl-8">
+                        <!-- <img src="assets/images/icon/it1.png" alt="img"> -->
+                         <i style="font-size: 30px;" class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="cont">
+                        <h5 class="n700-color mb-3 mb-lg-4">
+                            বিসিএস-এক্সাম কোর্স !
+                        </h5>
+                        <a href="exam_category.html" class="d-inline-flex align-items-center justify-content-center gap-2 gap-xl-4 n700-color ">
+                            আরও পড়ুন
+                            <i class="ti-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-left" data-aos-duration="1000">
+                <div class="online-courseitem radius16 n20-bg  cus-border border py-5 py-xl-8 py-xxl-10 px-4 text-center">
+                    <div class="icon cmn__icon88 m-auto n0-bg d-center radius100 cus-border border mb-4 mb-lg-5 mb-xl-6 mb-xxl-8">
+                        <!-- <img src="assets/images/icon/it1.png" alt="img"> -->
+                         <i style="font-size: 30px;" class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="cont">
+                        <h5 class="n700-color mb-3 mb-lg-4">
+                            ৯ম-১০ম গ্রেড জব এক্সাম কোর্স !
+                        </h5>
+                        <a href="courses-details1.html" class="d-inline-flex align-items-center justify-content-center gap-2 gap-xl-4 n700-color ">
+                            আরও পড়ুন
+                            <i class="ti-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-left" data-aos-duration="1000">
+                <div class="online-courseitem radius16 n20-bg  cus-border border py-5 py-xl-8 py-xxl-10 px-4 text-center">
+                    <div class="icon cmn__icon88 m-auto n0-bg d-center radius100 cus-border border mb-4 mb-lg-5 mb-xl-6 mb-xxl-8">
+                        <!-- <img src="assets/images/icon/it1.png" alt="img"> -->
+                         <i style="font-size: 30px;" class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="cont">
+                        <h5 class="n700-color mb-3 mb-lg-4">
+                            ব্যাংক জব এক্সাম কোর্স !
+                        </h5>
+                        <a href="courses-details1.html" class="d-inline-flex align-items-center justify-content-center gap-2 gap-xl-4 n700-color ">
+                            আরও পড়ুন
+                            <i class="ti-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-left" data-aos-duration="1000">
+                <div class="online-courseitem radius16 n20-bg  cus-border border py-5 py-xl-8 py-xxl-10 px-4 text-center">
+                    <div class="icon cmn__icon88 m-auto n0-bg d-center radius100 cus-border border mb-4 mb-lg-5 mb-xl-6 mb-xxl-8">
+                        <!-- <img src="assets/images/icon/it1.png" alt="img"> -->
+                         <i style="font-size: 30px;" class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="cont">
+                        <h5 class="n700-color mb-3 mb-lg-4">
+                            প্রাইমারি শিক্ষক নিয়োগ এক্সাম কোর্স !
+                        </h5>
+                        <a href="courses-details1.html" class="d-inline-flex align-items-center justify-content-center gap-2 gap-xl-4 n700-color ">
+                            আরও পড়ুন
+                            <i class="ti-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-left" data-aos-duration="1000">
+                <div class="online-courseitem radius16 n20-bg  cus-border border py-5 py-xl-8 py-xxl-10 px-4 text-center">
+                    <div class="icon cmn__icon88 m-auto n0-bg d-center radius100 cus-border border mb-4 mb-lg-5 mb-xl-6 mb-xxl-8">
+                        <!-- <img src="assets/images/icon/it1.png" alt="img"> -->
+                         <i style="font-size: 30px;" class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="cont">
+                        <h5 class="n700-color mb-3 mb-lg-4">
+                            শিক্ষক নিবন্ধন এক্সাম কোর্স!
+                        </h5>
+                        <a href="courses-details1.html" class="d-inline-flex align-items-center justify-content-center gap-2 gap-xl-4 n700-color ">
+                            আরও পড়ুন
+                            <i class="ti-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-left" data-aos-duration="1000">
+                <div class="online-courseitem radius16 n20-bg  cus-border border py-5 py-xl-8 py-xxl-10 px-4 text-center">
+                    <div class="icon cmn__icon88 m-auto n0-bg d-center radius100 cus-border border mb-4 mb-lg-5 mb-xl-6 mb-xxl-8">
+                        <!-- <img src="assets/images/icon/it1.png" alt="img"> -->
+                         <i style="font-size: 30px;" class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="cont">
+                        <h5 class="n700-color mb-3 mb-lg-4">
+                            ১১-২০তম গ্রেড জব এক্সাম কোর্স !
+                        </h5>
+                        <a href="courses-details1.html" class="d-inline-flex align-items-center justify-content-center gap-2 gap-xl-4 n700-color ">
+                            আরও পড়ুন
+                            <i class="ti-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-left" data-aos-duration="1000">
+                <div class="online-courseitem radius16 n20-bg  cus-border border py-5 py-xl-8 py-xxl-10 px-4 text-center">
+                    <div class="icon cmn__icon88 m-auto n0-bg d-center radius100 cus-border border mb-4 mb-lg-5 mb-xl-6 mb-xxl-8">
+                        <!-- <img src="assets/images/icon/it1.png" alt="img"> -->
+                         <i style="font-size: 30px;" class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="cont">
+                        <h5 class="n700-color mb-3 mb-lg-4">
+                            বিসিএস-এক্সাম কোর্স !
+                        </h5>
+                        <a href="courses-details1.html" class="d-inline-flex align-items-center justify-content-center gap-2 gap-xl-4 n700-color ">
+                            আরও পড়ুন
+                            <i class="ti-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-left" data-aos-duration="1000">
+                <div class="online-courseitem radius16 n20-bg  cus-border border py-5 py-xl-8 py-xxl-10 px-4 text-center">
+                    <div class="icon cmn__icon88 m-auto n0-bg d-center radius100 cus-border border mb-4 mb-lg-5 mb-xl-6 mb-xxl-8">
+                        <!-- <img src="assets/images/icon/it1.png" alt="img"> -->
+                         <i style="font-size: 30px;" class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div class="cont">
+                        <h5 class="n700-color mb-3 mb-lg-4">
+                            বিসিএস-এক্সাম কোর্স !
+                        </h5>
+                        <a href="courses-details1.html" class="d-inline-flex align-items-center justify-content-center gap-2 gap-xl-4 n700-color">
+                            আরও পড়ুন
+                            <i class="ti-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</section>
+<!-- online courses end -->
+
+
+   <!-- online courses start -->
+   <section class="online-courses-v2 pt-120 pb-120">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <div class="sec__titletwo text-center mb-10 mb-xl-15" data-aos="zoom-out-down"
+                    data-aos-duration="1400">
+                    <h4 class="two__title n500-color mb-4 mb-xl-5">
+                    পছন্দের কোর্সটি খুঁজুন
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row g-6 justify-content-center">
+            <div class="col-xxl-3 col-xl-4 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-right"
+                data-aos-duration="1200">
+                <div class="radius16  border">
+                        <img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+                    <div class="contbox d-flex align-items-center justify-content-between gap-2">
+                        <div class="cont">
+                            <h5 class="n700-color mb-2"><a href="course_details.html" style="font-size: 23px;word-spacing: 1.9px;line-height: 1.8em;text-align: left;" class="cor n700-color px-2 py-3">বিআরটিএ সুপার ফাস্ট রিক্রুটমেন্ট কোর্স</a></h5>
+                            <div class="main_star_price d-flex justify-content-between align-items-center px-2">
+                                <div class="left_price">
+                                    <span class="text-decoration-line-through text-muted "><i class="fa-solid fa-bangladeshi-taka-sign"></i> 500</span>
+                                    <span class="fw-bold text-success mx-3"><i class="fa-solid fa-bangladeshi-taka-sign"></i> 200</span>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1 mb-xl-1">
+                                    <div class="d-flex align-items-center gap-1 gap-xl-2">
+                                        <h6 class="n700-color fw_500">
+                                            <div>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                            </div>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="w-100" style="margin-bottom: 17px;margin-top: 20px;padding: 0px 20px">
+                        <a class="btn btn-success w-100" href=""><strong>কিনুন</strong></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-4 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-right"
+                data-aos-duration="1200">
+                <div class=" radius16 border">
+                        <img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+                    <div class="contbox d-flex align-items-center justify-content-between gap-2">
+                        <div class="cont">
+                            <h5 class="n700-color mb-2"><a href="" style="font-size: 23px;word-spacing: 1.9px;line-height: 1.8em;text-align: left;" class="cor n700-color px-2 py-3">জনতা ব্যাংক ভেরিফাইড প্রিপারেশন প্রোগ্রাম</a></h5>
+                            <div class="main_star_price d-flex justify-content-between align-items-center px-2">
+                                <div class="left_price">
+                                    <span class="text-decoration-line-through text-muted "><i class="fa-solid fa-bangladeshi-taka-sign"></i> 500</span>
+                                    <span class="fw-bold text-success mx-3"><i class="fa-solid fa-bangladeshi-taka-sign"></i> 200</span>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1 mb-xl-1">
+                                    <div class="d-flex align-items-center gap-1 gap-xl-2">
+                                        <h6 class="n700-color fw_500">
+                                            <div>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                            </div>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="w-100" style="margin-bottom: 17px;margin-top: 20px;padding: 0px 20px">
+                        <a class="btn btn-success w-100" href=""><strong>কিনুন</strong></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-4 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-right"
+                data-aos-duration="1200">
+                <div class=" radius16 border">
+                        <img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+                    <div class="contbox d-flex align-items-center justify-content-between gap-2">
+                        <div class="cont">
+                            <h5 class="n700-color mb-2"><a href="" style="font-size: 23px;word-spacing: 1.9px;line-height: 1.8em;text-align: left;" class="cor n700-color px-2 py-3">ডাচ-বাংলা ব্যাংক নিয়োগ ক্যাম্প</a></h5>
+                            <div class="main_star_price d-flex justify-content-between align-items-center px-2">
+                                <div class="left_price">
+                                    <span class="text-decoration-line-through text-muted "><i class="fa-solid fa-bangladeshi-taka-sign"></i> 500</span>
+                                    <span class="fw-bold text-success mx-3"><i class="fa-solid fa-bangladeshi-taka-sign"></i> 200</span>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1 mb-xl-1">
+                                    <div class="d-flex align-items-center gap-1 gap-xl-2">
+                                        <h6 class="n700-color fw_500">
+                                            <div>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                            </div>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="w-100" style="margin-bottom: 17px;margin-top: 20px;padding: 0px 20px">
+                        <a class="btn btn-success w-100" href=""><strong>কিনুন</strong></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-4 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-right"
+                data-aos-duration="1200">
+                <div class=" radius16 border">
+                        <img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+                    <div class="contbox d-flex align-items-center justify-content-between gap-2">
+                        <div class="cont">
+                            <h5 class="n700-color mb-2"><a href="" style="font-size: 23px;word-spacing: 1.9px;line-height: 1.8em;text-align: left;" class="cor n700-color px-2 py-3">
+                                অগ্রণী ব্যাংক নিয়োগ এক্সপ্রেস কোর্স
+                            </a></h5>
+                            <div class="main_star_price d-flex justify-content-between align-items-center px-2">
+                                <div class="left_price">
+                                    <span class="text-decoration-line-through text-muted "><i class="fa-solid fa-bangladeshi-taka-sign"></i> 500</span>
+                                    <span class="fw-bold text-success mx-3"><i class="fa-solid fa-bangladeshi-taka-sign"></i> 200</span>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1 mb-xl-1">
+                                    <div class="d-flex align-items-center gap-1 gap-xl-2">
+                                        <h6 class="n700-color fw_500">
+                                            <div>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                            </div>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="w-100" style="margin-bottom: 17px;margin-top: 20px;padding: 0px 20px">
+                        <a class="btn btn-success w-100" href=""><strong>কিনুন</strong></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-4 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-right"
+                data-aos-duration="1200">
+                <div class=" radius16 border">
+                        <img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+                    <div class="contbox d-flex align-items-center justify-content-between gap-2">
+                        <div class="cont">
+                            <h5 class="n700-color mb-2"><a href="" style="font-size: 23px;word-spacing: 1.9px;line-height: 1.8em;text-align: left;" class="cor n700-color px-2 py-3">বিমান এয়ারলাইন্স চাকরি গ্যারান্টিড কোচিং</a></h5>
+                            <div class="main_star_price d-flex justify-content-between align-items-center px-2">
+                                <div class="left_price">
+                                    <span class="text-decoration-line-through text-muted "><i class="fa-solid fa-bangladeshi-taka-sign"></i> 500</span>
+                                    <span class="fw-bold text-success mx-3"><i class="fa-solid fa-bangladeshi-taka-sign"></i> 200</span>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1 mb-xl-1">
+                                    <div class="d-flex align-items-center gap-1 gap-xl-2">
+                                        <h6 class="n700-color fw_500">
+                                            <div>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                            </div>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="w-100" style="margin-bottom: 17px;margin-top: 20px;padding: 0px 20px">
+                        <a class="btn btn-success w-100" href=""><strong> কিনুন</strong></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-4 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-right"
+                data-aos-duration="1200">
+                <div class=" radius16 border">
+                        <img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+                    <div class="contbox d-flex align-items-center justify-content-between gap-2">
+                        <div class="cont">
+                            <h5 class="n700-color mb-2"><a href="" style="font-size: 23px;word-spacing: 1.9px;line-height: 1.8em;text-align: left;" class="cor n700-color px-2 py-3">বিআরটিএ সুপার ফাস্ট রিক্রুটমেন্ট কোর্স</a></h5>
+                            <div class="main_star_price d-flex justify-content-between align-items-center px-2">
+                                <div class="left_price">
+                                    <span class="text-decoration-line-through text-muted "><i class="fa-solid fa-bangladeshi-taka-sign"></i> 500</span>
+                                    <span class="fw-bold text-success mx-3"><i class="fa-solid fa-bangladeshi-taka-sign"></i> 200</span>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1 mb-xl-1">
+                                    <div class="d-flex align-items-center gap-1 gap-xl-2">
+                                        <h6 class="n700-color fw_500">
+                                            <div>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                            </div>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="w-100" style="margin-bottom: 17px;margin-top: 20px;padding: 0px 20px">
+                        <a class="btn btn-success w-100" href=""><strong>কিনুন</strong></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-4 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-right"
+                data-aos-duration="1200">
+                <div class=" radius16 border">
+                        <img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+                    <div class="contbox d-flex align-items-center justify-content-between gap-2">
+                        <div class="cont">
+                            <h5 class="n700-color mb-2"><a href="" style="font-size: 23px;word-spacing: 1.9px;line-height: 1.8em;text-align: left;" class="cor n700-color px-2 py-3">বাংলাদেশ ব্যাংক চাকরি প্রস্তুতি আল্টিমেট ব্যাচ</a></h5>
+                            <div class="main_star_price d-flex justify-content-between align-items-center px-2">
+                                <div class="left_price">
+                                    <span class="text-decoration-line-through text-muted "><i class="fa-solid fa-bangladeshi-taka-sign"></i> 500</span>
+                                    <span class="fw-bold text-success mx-3"><i class="fa-solid fa-bangladeshi-taka-sign"></i> 200</span>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1 mb-xl-1">
+                                    <div class="d-flex align-items-center gap-1 gap-xl-2">
+                                        <h6 class="n700-color fw_500">
+                                            <div>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                            </div>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="w-100" style="margin-bottom: 17px;margin-top: 20px;padding: 0px 20px">
+                        <a class="btn btn-success w-100" href=""><strong>কিনুন</strong></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xxl-3 col-xl-4 col-lg-3 col-md-4 col-sm-6" data-aos="zoom-in-right"
+                data-aos-duration="1200">
+                <div class="radius16 border">
+                        <img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+                    <div class="contbox d-flex align-items-center justify-content-between gap-2">
+                        <div class="cont">
+                            <h5 class="n700-color mb-2"><a href="" style="font-size: 23px;word-spacing: 1.9px;line-height: 1.8em;text-align: left;" class="cor n700-color px-2 py-3">গ্রামীণ ব্যাংক নিয়োগ গোল্ড লাইভ ব্যাচ</a></h5>
+                            <div class="main_star_price d-flex justify-content-between align-items-center px-2">
+                                <div class="left_price">
+                                    <span class="text-decoration-line-through text-muted "><i class="fa-solid fa-bangladeshi-taka-sign"></i> 500</span>
+                                    <span class="fw-bold text-success mx-3"><i class="fa-solid fa-bangladeshi-taka-sign"></i> 200</span>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between mb-1 mb-xl-1">
+                                    <div class="d-flex align-items-center gap-1 gap-xl-2">
+                                        <h6 class="n700-color fw_500">
+                                            <div>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span style="color: #138d75"><i class="fa-solid fa-star"></i></span>
+                                                <span><i class="fa-solid fa-star"></i></span>
+                                            </div>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="w-100" style="margin-bottom: 17px;margin-top: 20px;padding: 0px 20px">
+                        <a class="btn btn-success w-100" href=""><strong> কিনুন</strong></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="m-auto text-center mt-8 mt-xl-10" data-aos="zoom-in" data-aos-duration="1800">
+            <a href="courses.html"
+                class="cmn-btn d-inline-flex justify-content-center second-alt n700-color gap-2 d-flex align-items-center radius30 py-2 py-xxl-3 px-xxl-6 px-5">
+                <span> সব দেখুন </span>
+                <i class="ti-arrow-top-right s2-color fs-five"></i>
+            </a>
+        </div>
+    </div>
+</section>
+<!-- online courses end -->
+
+<!--   next-part   -->
+
+   
+<footer id="Footer">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-sm-12 col-md-4">
+                <div class="footer-logo-content mb-lg-5">
+                    <div class="footer-logo">
+                        <div class="footer-logo-image">
+                            <img src="assets/images/logo-theme.png" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="footer-logo-text">
+                        <p>সারা দেশের হাজারো চাকরিপ্রার্থী জন্য, 
+                            <br> হলো দেশের সবচেয়ে বড় অনলাইন চাকরির প্রস্তুতি প্ল্যাটফর্ম, যা বিশ্বাসযোগ্যতা ও আশার প্রতীক। যাত্রা শুরু করুন এবং নিরবচ্ছিন্ন আতিথেয়তা উপভোগ করুন।</p>
+                    </div>
+                    <div class="footer-social-media-area">
+                        <div class="social-media-icon">
+                            <div class="facebook-icon">
+                                <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            </div>
+                            <div class="youtube-icon">
+                                <a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                            <div class="instagram-icon">
+                                <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="linkedin-icon">
+                                <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="footer-others-div">
+                    <div class="row g-4">
+                        <div class="col-6 col-md-4">
+                            <div class="about-us">
+                                <h3>আমাদের সম্পর্কে</h3>
+                                <ul>
+                                    <li style="color: #138D75;"><a href="">আমাদের সম্পর্কে</a></li>
+                                    <li style="color: #138D75;"><a href="">প্রশিক্ষক</a></li>
+                                    <li style="color: #138D75;"><a href="">ফেরত নীতিমালা</a></li>
+                                    <li style="color: #138D75;"><a href="">যোগাযোগ করুন</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4">
+                            <div class="resources">
+                                <h3>সরাসরি লিংক</h3>
+                                <ul>
+                                    <li style="color: #138D75;"><a href="">কোর্সসমূহ</a></li>
+                                    <li style="color: #138D75;"><a href="">আমাদের ব্লগ</a></li>
+                                    <li style="color: #138D75;"><a href="">শর্তাবলী</a></li>
+                                    <li style="color: #138D75;"><a href="">গোপনীয়তা নীতি</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="official-info">
+                                <h3>জরুরি তথ্য</h3>
+                                <ul>
+                                    <li>
+                                        <i style="margin-right: 10px;color: #fff;" class="fa-regular fa-envelope"></i>
+                                        <a href="mailto:support@gmail.com">info@edufast.com</a>
+                                    </li>
+                                    <li>
+                                        <i style="margin-right: 10px;color: #fff;" class="fa-solid fa-phone"></i>
+                                        <a href="tel:+8809644433300">+8801847364587</a>
+                                    </li>
+                                    <li>
+                                        <i style="margin-right: 10px;color: #fff;" class="fa-solid fa-location-dot"></i>
+                                        <a href="">চট্টগ্রাম ট্রেড সেন্টার, নিউ মার্কেট, স্টেশন রোড, ৪০০০ চট্টগ্রাম, বাংলাদেশ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-12">
+            <!-- <img class="img-fluid" src="https://biddabari.com/frontend/assets/images/exam-page/SSL.webp" alt="SSL Image" srcset=""> -->
+        </div>
+        <br>
+    </div>
+    <div class="copy-right-section">
+        <div class="container">
+            <p>কপিরাইট © ২০২৫ <span><a href="" style="color: #138D75;">Edufast</span></a> সকল অধিকার সংরক্ষিত</p>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+        integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- ==== js dependencies start ==== -->
+    <script src="assets/js/plugins/plugins.js"></script>
+    <script src="assets/js/plugins/plugin-custom.js"></script>
+    <script src="assets/js/apexcharts.js"></script>
+    <script src="assets/js/plugins/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
