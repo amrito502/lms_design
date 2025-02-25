@@ -18,36 +18,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap" rel="stylesheet">
-<style>
-    body{
-        font-family: "Noto Sans Bengali", serif;
-        font-optical-sizing: auto;
-        font-weight: 600;
-        font-style: normal;
-        font-variation-settings:
-            "wdth" 100;
-    }
-    .login_title{
-        font-family: "Noto Sans Bengali", serif;
-        font-size: 45px;
-        text-align: center;
-    }
-    .login_btn{
-        margin-top: 40px;
-        text-align: center;
-        width: 100%;
-        border: 1px solid #138D75;
-        padding: 10px 0;
-        font-size: 19px;
-        border-radius: 45px;
-        color: #138D75;
-        transition: .4sease;
-    }
-    .login_btn:hover{
-        background-color: #138D75;
-        color: #fff;
-    }
-</style>
+    <style>
+        body {
+            font-family: "Noto Sans Bengali", serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+        .login_title {
+            font-family: "Noto Sans Bengali", serif;
+            font-size: 45px;
+            text-align: center;
+        }
+
+        .login_btn {
+            margin-top: 40px;
+            text-align: center;
+            width: 100%;
+            border: 1px solid #138D75;
+            padding: 10px 0;
+            font-size: 19px;
+            border-radius: 45px;
+            color: #138D75;
+            transition: .4sease;
+        }
+
+        .login_btn:hover {
+            background-color: #138D75;
+            color: #fff;
+        }
+    </style>
 </head>
 
 <body>
@@ -63,7 +66,7 @@
     </button>
     <!-- Scroll To Top End -->
 
-   
+
     <!-- header-section start -->
     <header class="header-section cmn-s2color-header header-v3 header-v5">
         <!-- top header start -->
@@ -101,7 +104,8 @@
                                         </li>
 
                                         <li class="menu-item position-relative">
-                                            <a href="courses.html" class="fw_500 n500-color menu_list_item">কোর্সসমূহ</a>
+                                            <a href="courses.html"
+                                                class="fw_500 n500-color menu_list_item">কোর্সসমূহ</a>
                                         </li>
 
                                         <li class="menu-item position-relative">
@@ -215,171 +219,258 @@
     </header>
     <!-- header-section end -->
 
-   
-    <section class="signup-section pt-120  pb-120">
+
+
+    <!-- online courses start -->
+    <section class="online-courses pt-120 pb-120">
         <div class="container">
-            <div class="row g-6 mt-100" style="margin-top: 80px;">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-7">
-                    <div class="cmn-form radius16 n20-bg cus-border border py-xxl-8 py-4 px-xxl-8 px-4">
-                        <div class="box mb-xxl-10 mb-8">
-                            <h4 class="n500-color mb-xxl-4 mb-2 login_title">
-                                সাইন আপ
-                            </h4>
-                        </div>
-                        <form action="#0" class="writere-v1">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-cmn mb-xxl-6 mb-5">
-                                        <label for="name" class="fs-six fw_500 n700-color mb-xxl-3 mb-2">সম্পূর্ণ নাম <span class="text-danger">*</span></label>
-                                        <input type="text" placeholder="সম্পূর্ণ নাম" id="name" class="n0-bg">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-cmn mb-xxl-6 mb-5">
-                                        <label for="emal" class="fs-six fw_500 n700-color mb-xxl-3 mb-2">ইমেইল  <span class="text-danger">*</span></label>
-                                        <input type="email" placeholder="ইমেইল " id="emal" class="n0-bg">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-cmn mb-xxl-6 mb-5">
-                                        <label for="phone" class="fs-six fw_500 n700-color mb-xxl-3 mb-2">মোবাইল <span class="text-danger">*</span></label>
-                                        <input type="text" placeholder="মোবাইল" id="phone" class="n0-bg">
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="sign__item mb-xxl-6 mb-5">
-                                        <label for="password-field" class="fs-six fw_500 n700-color mb-xxl-3 mb-2">পাসওয়ার্ড <span class="text-danger">*</span></label>
-                                        <div class="ps-grp position-relative">
-                                            <input type="password" id="password-field" name="password" class="password-field" placeholder="পাসওয়ার্ড">
-                                            <i class="far fa-eye-slash field-icon toggle-password eye-icon"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="sign__item">
-                                        <label for="password-field" class="fs-six fw_500 n700-color mb-xxl-3 mb-2">কনফার্ম পাসওয়ার্ড <span class="text-danger">*</span></label>
-                                        <div class="ps-grp position-relative">
-                                            <input type="password" id="password-field" name="confirm_password" class="password-field" placeholder="কনফার্ম পাসওয়ার্ড">
-                                            <i class="far fa-eye-slash field-icon toggle-password eye-icon"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <button type="submit" class="login_btn">সাইন আপ</button>
-                                </div>
-                                <div class="row mt-6">
-                                    <div class="col-md-12">
-                                        <p class="text-center">অ্যাকাউন্ট আছে? <a href="login.html" class="fw_600 n700-color"> সাইন ইন করুন</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+            <div class="row justify-content-center mt-20">
+                <div class="col-lg-12">
+                    <div class="sec__titletwo text-center mb-10 mb-xl-15">
+                        <span class="two__title n700-color mb-4 mb-xl-5" data-aos="zoom-out-down"
+                            data-aos-duration="1400">
+                            ফ্রি শিখুন
+                        </span>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row g-6 justify-content-center">
+              
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 radius16" data-aos="zoom-in-left"
+                        data-aos-duration="1000">
+                        <a href="">
+                        <img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+                        <div class="online-courseitem n20-bg radius16 py-5 py-xl-8 py-xxl-4 px-4 text-center">
+
+                            <div class="cont">
+                                <h5 class="n700-color mb-3 mt-3 mb-lg-4">
+                                    বিসিএস-এক্সাম কোর্স !
+                                </h5>
+                            </div>
+                        </div>
+                    </a>
+                    </div>
+
+                    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 radius16" data-aos="zoom-in-left"
+                    data-aos-duration="1000">
+                    <a href="">
+                    <img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+                    <div class="online-courseitem n20-bg radius16 py-5 py-xl-8 py-xxl-4 px-4 text-center">
+
+                        <div class="cont">
+                            <h5 class="n700-color mb-3 mt-3 mb-lg-4">
+                                বিসিএস-এক্সাম কোর্স !
+                            </h5>
+                        </div>
+                    </div>
+                </a>
+                </div>
+            
+
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 radius16" data-aos="zoom-in-left"
+                data-aos-duration="1000">
+                <a href="">
+                <img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+                <div class="online-courseitem n20-bg radius16 py-5 py-xl-8 py-xxl-4 px-4 text-center">
+
+                    <div class="cont">
+                        <h5 class="n700-color mb-3 mt-3 mb-lg-4">
+                            বিসিএস-এক্সাম কোর্স !
+                        </h5>
+                    </div>
+                </div>
+            </a>
+            </div>
+        
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 radius16" data-aos="zoom-in-left"
+            data-aos-duration="1000">
+            <a href="">
+            <img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+            <div class="online-courseitem n20-bg radius16 py-5 py-xl-8 py-xxl-4 px-4 text-center">
+
+                <div class="cont">
+                    <h5 class="n700-color mb-3 mt-3 mb-lg-4">
+                        বিসিএস-এক্সাম কোর্স !
+                    </h5>
+                </div>
+            </div>
+        </a>
+        </div>
+    
+
+        <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 radius16" data-aos="zoom-in-left"
+        data-aos-duration="1000">
+        <a href="">
+        <img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+        <div class="online-courseitem n20-bg radius16 py-5 py-xl-8 py-xxl-4 px-4 text-center">
+
+            <div class="cont">
+                <h5 class="n700-color mb-3 mt-3 mb-lg-4">
+                    বিসিএস-এক্সাম কোর্স !
+                </h5>
+            </div>
+        </div>
+    </a>
+    </div>
+
+
+    <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 radius16" data-aos="zoom-in-left"
+    data-aos-duration="1000">
+    <a href="">
+    <img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+    <div class="online-courseitem n20-bg radius16 py-5 py-xl-8 py-xxl-4 px-4 text-center">
+
+        <div class="cont">
+            <h5 class="n700-color mb-3 mt-3 mb-lg-4">
+                বিসিএস-এক্সাম কোর্স !
+            </h5>
+        </div>
+    </div>
+</a>
+</div>
+
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 radius16" data-aos="zoom-in-left"
+data-aos-duration="1000">
+<a href="">
+<img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+<div class="online-courseitem n20-bg radius16 py-5 py-xl-8 py-xxl-4 px-4 text-center">
+
+    <div class="cont">
+        <h5 class="n700-color mb-3 mt-3 mb-lg-4">
+            বিসিএস-এক্সাম কোর্স !
+        </h5>
+    </div>
+</div>
+</a>
+</div>
+
+
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 radius16" data-aos="zoom-in-left"
+data-aos-duration="1000">
+<a href="">
+<img src="assets/images/banner/hero_slider_3.png" class="w-100 radius32" alt="img" />
+<div class="online-courseitem n20-bg radius16 py-5 py-xl-8 py-xxl-4 px-4 text-center">
+
+    <div class="cont">
+        <h5 class="n700-color mb-3 mt-3 mb-lg-4">
+            বিসিএস-এক্সাম কোর্স !
+        </h5>
+    </div>
+</div>
+</a>
+</div>
+
                 
-                <div class="col-lg-3"></div>
+
+              
+
             </div>
         </div>
     </section>
+    <!-- online courses end -->
 
 
 
 
-<!--   next-part   -->
-
-   
-<footer id="Footer">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-sm-12 col-md-4">
-                <div class="footer-logo-content mb-lg-5">
-                    <div class="footer-logo">
-                        <div class="footer-logo-image">
-                            <img src="assets/images/logo-theme.png" alt="" srcset="">
-                        </div>
-                    </div>
-                    <div class="footer-logo-text">
-                        <p>সারা দেশের হাজারো চাকরিপ্রার্থী জন্য, 
-                            <br> হলো দেশের সবচেয়ে বড় অনলাইন চাকরির প্রস্তুতি প্ল্যাটফর্ম, যা বিশ্বাসযোগ্যতা ও আশার প্রতীক। যাত্রা শুরু করুন এবং নিরবচ্ছিন্ন আতিথেয়তা উপভোগ করুন।</p>
-                    </div>
-                    <div class="footer-social-media-area">
-                        <div class="social-media-icon">
-                            <div class="facebook-icon">
-                                <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                            </div>
-                            <div class="youtube-icon">
-                                <a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-                            </div>
-                            <div class="instagram-icon">
-                                <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                            </div>
-                            <div class="linkedin-icon">
-                                <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="footer-others-div">
-                    <div class="row g-4">
-                        <div class="col-6 col-md-4">
-                            <div class="about-us">
-                                <h3>আমাদের সম্পর্কে</h3>
-                                <ul>
-                                    <li style="color: #138D75;"><a href="">আমাদের সম্পর্কে</a></li>
-                                    <li style="color: #138D75;"><a href="">প্রশিক্ষক</a></li>
-                                    <li style="color: #138D75;"><a href="">ফেরত নীতিমালা</a></li>
-                                    <li style="color: #138D75;"><a href="">যোগাযোগ করুন</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-6 col-md-4">
-                            <div class="resources">
-                                <h3>সরাসরি লিংক</h3>
-                                <ul>
-                                    <li style="color: #138D75;"><a href="">কোর্সসমূহ</a></li>
-                                    <li style="color: #138D75;"><a href="">আমাদের ব্লগ</a></li>
-                                    <li style="color: #138D75;"><a href="">শর্তাবলী</a></li>
-                                    <li style="color: #138D75;"><a href="">গোপনীয়তা নীতি</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-4">
-                            <div class="official-info">
-                                <h3>জরুরি তথ্য</h3>
-                                <ul>
-                                    <li>
-                                        <i style="margin-right: 10px;color: #fff;" class="fa-regular fa-envelope"></i>
-                                        <a href="mailto:support@gmail.com">info@edufast.com</a>
-                                    </li>
-                                    <li>
-                                        <i style="margin-right: 10px;color: #fff;" class="fa-solid fa-phone"></i>
-                                        <a href="tel:+8809644433300">+8801847364587</a>
-                                    </li>
-                                    <li>
-                                        <i style="margin-right: 10px;color: #fff;" class="fa-solid fa-location-dot"></i>
-                                        <a href="">চট্টগ্রাম ট্রেড সেন্টার, নিউ মার্কেট, স্টেশন রোড, ৪০০০ চট্টগ্রাম, বাংলাদেশ</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-12">
-            <!-- <img class="img-fluid" src="https://biddabari.com/frontend/assets/images/exam-page/SSL.webp" alt="SSL Image" srcset=""> -->
-        </div>
-        <br>
-    </div>
-    <div class="copy-right-section">
+    <footer id="Footer">
         <div class="container">
-            <p>কপিরাইট © ২০২৫ <span><a href="" style="color: #138D75;">Edufast</span></a> সকল অধিকার সংরক্ষিত</p>
+            <div class="row g-4">
+                <div class="col-sm-12 col-md-4">
+                    <div class="footer-logo-content mb-lg-5">
+                        <div class="footer-logo">
+                            <div class="footer-logo-image">
+                                <img src="assets/images/logo-theme.png" alt="" srcset="">
+                            </div>
+                        </div>
+                        <div class="footer-logo-text">
+                            <p>সারা দেশের হাজারো চাকরিপ্রার্থী জন্য,
+                                <br> হলো দেশের সবচেয়ে বড় অনলাইন চাকরির প্রস্তুতি প্ল্যাটফর্ম, যা বিশ্বাসযোগ্যতা ও আশার
+                                প্রতীক। যাত্রা শুরু করুন এবং নিরবচ্ছিন্ন আতিথেয়তা উপভোগ করুন।
+                            </p>
+                        </div>
+                        <div class="footer-social-media-area">
+                            <div class="social-media-icon">
+                                <div class="facebook-icon">
+                                    <a href="" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                                </div>
+                                <div class="youtube-icon">
+                                    <a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                                </div>
+                                <div class="instagram-icon">
+                                    <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                </div>
+                                <div class="linkedin-icon">
+                                    <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="footer-others-div">
+                        <div class="row g-4">
+                            <div class="col-6 col-md-4">
+                                <div class="about-us">
+                                    <h3>আমাদের সম্পর্কে</h3>
+                                    <ul>
+                                        <li style="color: #138D75;"><a href="">আমাদের সম্পর্কে</a></li>
+                                        <li style="color: #138D75;"><a href="">প্রশিক্ষক</a></li>
+                                        <li style="color: #138D75;"><a href="">ফেরত নীতিমালা</a></li>
+                                        <li style="color: #138D75;"><a href="">যোগাযোগ করুন</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <div class="resources">
+                                    <h3>সরাসরি লিংক</h3>
+                                    <ul>
+                                        <li style="color: #138D75;"><a href="">কোর্সসমূহ</a></li>
+                                        <li style="color: #138D75;"><a href="">আমাদের ব্লগ</a></li>
+                                        <li style="color: #138D75;"><a href="">শর্তাবলী</a></li>
+                                        <li style="color: #138D75;"><a href="">গোপনীয়তা নীতি</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <div class="official-info">
+                                    <h3>জরুরি তথ্য</h3>
+                                    <ul>
+                                        <li>
+                                            <i style="margin-right: 10px;color: #fff;"
+                                                class="fa-regular fa-envelope"></i>
+                                            <a href="mailto:support@gmail.com">info@edufast.com</a>
+                                        </li>
+                                        <li>
+                                            <i style="margin-right: 10px;color: #fff;" class="fa-solid fa-phone"></i>
+                                            <a href="tel:+8809644433300">+8801847364587</a>
+                                        </li>
+                                        <li>
+                                            <i style="margin-right: 10px;color: #fff;"
+                                                class="fa-solid fa-location-dot"></i>
+                                            <a href="">চট্টগ্রাম ট্রেড সেন্টার, নিউ মার্কেট, স্টেশন রোড, ৪০০০
+                                                চট্টগ্রাম, বাংলাদেশ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12">
+                <!-- <img class="img-fluid" src="https://biddabari.com/frontend/assets/images/exam-page/SSL.webp" alt="SSL Image" srcset=""> -->
+            </div>
+            <br>
         </div>
-    </div>
-</footer>
+        <div class="copy-right-section">
+            <div class="container">
+                <p>কপিরাইট © ২০২৫ <span><a href="" style="color: #138D75;">Edufast</span></a> সকল অধিকার
+                    সংরক্ষিত</p>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
@@ -394,3 +485,6 @@
 </body>
 
 </html>
+
+
+
